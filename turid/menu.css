@@ -1,0 +1,41 @@
+@import url("../menu.css");
+
+#menu {
+  margin-top: 15px;
+  width: 100px;
+  position: fixed;
+  border-right: 1px solid #aaa;
+  padding: 10px;
+}
+
+#menu ul {
+  margin: 5px 0px;
+}
+
+#menu li {
+  text-align: right;
+  font-weight: bold;
+  margin: 1px 0px;
+  padding: 6px 2px 6px 2px;
+  /* background: transparent; */
+  /* border: 1px solid transparent; */
+}
+
+#menu li:hover {
+  background: #fff;
+  border: 1px solid #aaa;
+  padding: 5px 1px 5px 1px;
+}
+
+#menu li a {
+  border: 0;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding-left: 1.5ex;
+  padding-right: 1.5ex;
+}

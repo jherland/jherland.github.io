@@ -1,0 +1,23 @@
+form {
+}
+form table.form tr td.label {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 3px;
+}
+form table.form tr td.formw {
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Required fields should carry a <strong class="required">*</strong> */
+.required {
+	font-weight: bold;
+	color: red;
+}
+
+/* Make "Delete" buttons have a slight red background to easily distinguish them from other buttons. */
+input.deletebutton {
+  color: inherit;
+  background-color: #c88;
+}

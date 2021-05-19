@@ -1,0 +1,100 @@
+@import url("../layout.css");
+
+html, body {
+	background: #888;
+	font: 9pt sans-serif;
+}
+
+h1 {
+/*      font-size: 30px;*/
+	font-family: "Trebuchet MS", serif;
+/*      text-align: right;*/
+/*      background: #ccc;*/
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+/*      background: url(images/h1_background);*/
+/*      border-bottom: 1px solid #aaa;*/
+}
+
+h2 {
+      font-size: 18px;
+	font-family: "Trebuchet MS", serif;
+      margin-bottom: -10px;
+}
+
+/* Change backround image and background color on pages. */
+#page, #footer {
+  background-color: #eee;
+  background-image: url("images/bg");
+}
+
+/* Ensure a minimum height */
+#page {
+  min-height: 350px;
+}
+#content {
+}
+
+a {
+	text-decoration: none;
+/* 	font-weight: normal; */
+	border: 0;
+	color: #833;
+	background-color: inherit;
+}
+
+a img {
+	border: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	/*background: url(images/link_bg);*/
+      background: #fff;
+	/*border-top: 1px black dashed;*/
+	border-bottom: 1px #aaa solid;
+      text-decoration: none;
+}
+
+.quote {
+/* 	padding-top: 10%; */
+	font-style: italic;
+	text-align: center;
+/*	width: 350px;*/
+	line-height: 1.7;
+}
+/*
+.quote_by {
+	text-align: center;
+	font-variant: small-caps;
+}
+*/
+
+blockquote {
+  margin: 0;
+  padding: 1ex 4em;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+div.quote_by {
+  text-align: left;
+  font-variant: small-caps;
+  padding-left: 8em;
+}
+
+.figure {
+	text-align: center;
+}
+
+.picture {
+	display: block;
+	float: right;
+	margin: 0 0 1ex 1em;
+	padding: 0;
+}
+.picture img {
+	border: 1px black dashed;
+}

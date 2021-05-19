@@ -1,0 +1,82 @@
+@import url("common.css");
+@import url("wrapper.css");
+
+html, body {
+  font-size: 14px;
+  font-family: "Bitstream Vera Sans", sans-serif;
+  background-color: #999;
+  color: #000;
+}
+
+/* Overriding wrapper.css */
+#wrapper {
+  width: 600px;
+  margin: 25px auto;
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  text-align: justify;
+}
+
+/* Common settings for page area and footer */
+#page, #footer {
+  margin: 0;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  color: inherit;
+  background-color: #ddd;
+  background-image: url("bg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+/* Page area */
+#page {
+}
+
+/* Content area */
+#content {
+}
+
+/* Credits at bottom of main content frame in small type. */
+#footer {
+  clear: both;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* Links should have nothing but a frame on hover/focus/active */
+a {
+  color: #006;
+  background-color: inherit;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+/* No border on linked images, by default */
+a img {
+  border: 0;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bitstream Vera Sans", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+h1 {
+  margin: 0 0 10px 0;
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+}
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }

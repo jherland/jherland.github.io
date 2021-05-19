@@ -1,0 +1,10 @@
+.warning {
+    color: #f00;
+    background-color: inherit;
+    font-weight: bold;
+}
+.infomsg {
+    color: #000;
+    background-color: inherit;
+    font-weight: bold;
+}

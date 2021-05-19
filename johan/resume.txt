@@ -1,0 +1,135 @@
+                            Resume - Johan Herland
+-------------------------------------------------------------------------------
+johan@herland.net              (+47) 472 62 495              Pilestredet Park 4
+http://herland.net/johan                                   NO-0176 Oslo, Norway
+
+-------------------------------------------------------------------------------
+Summary of Strengths
+
+    - Passion for designing and implementing elegant and useful (software)
+      solutions to challenging problems.
+    - Experience in distributed software development and C/C++/Python from
+      Cisco, Opera and open source projects.
+    - Good knowledge of web standards from developing web browsers, and prior
+      experience as a web developer.
+    - Excellent communication skills from studying abroad and working in
+      multilingual environments.
+    - Diligent and responsible in performing tasks. High attention to detail.
+
+-------------------------------------------------------------------------------
+Relevant Experience
+
+    Software Engineer at Cisco (formerly Tandberg)       October 2011 - Present
+        - Platform developer in Lysaker Software team, part of the
+          Collaboration Technology Group.
+        - Developing next-generation TelePresence video conferencing endpoints.
+        - Git expert, administrator, trainer, etc.
+
+    Contributor to the open source Git project               May 2007 - Present
+        - Git is currently the most popular distributed version control system.
+        - Primary author of the "git notes" feature for attaching useful
+          metadata to Git objects.
+        - Active participant in the Git community.
+
+    Core Developer at Opera Software ASA        September 2007 - September 2011
+        - Responsible for central infrastructure and utilities, making them
+          lightweight, efficient, and portable to a wide variety of platforms.
+        - Maintaining core components for legacy encoding support, Unicode
+          funtionality, selftest infrastructure, etc.
+        - Coordinated company-wide version control transition from CVS to Git.
+
+    Unix Developer at Opera Software ASA             July 2004 - September 2007
+        - Developing and porting Opera to embedded Unix/Linux-based platforms.
+        - Implementing product-specific features and resolving bugs.
+        - Working in customer-oriented product teams with high level of
+          cooperation with the customer and tight delivery deadlines.
+
+-------------------------------------------------------------------------------
+Relevant Education
+
+    Bachelor of Science with First Class Honours                    2000 - 2004
+        - Queen's University, Kingston, Ontario, Canada.
+        - Computer Engineering, Software Option.
+        - Received Dean's Award (above 80% grade average) in 2002 and 2003.
+          Final standing: 84% grade average.
+        - Focus on software architecture/development and real-time systems.
+        - 4-year intensive program with a final-year thesis project:
+          Robot Pool "Straight-Shot" Planner and Executor:
+            - Part of a larger endeavour in robotics and machine vision on
+              creating a pool-playing robot.
+            - Developed two calibration processes for Pool Robot in C/C++.
+            - http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1389787
+
+-------------------------------------------------------------------------------
+Relevant Skills
+
+    - Natural Languages: Norwegian (native). English (fluent).
+    - Programming Languages:
+        - Primary languages: C, C++, Python, Bourne shell.
+        - Secondary languages: Perl, Java, Javascript.
+    - Other Languages: HTML, CSS, XML, SQL, etc.
+    - Operating Systems:
+        - Advanced Linux/UNIX user since 1996 (Arch, Debian, Ubuntu, etc.).
+        - Some experience from Mac OS X and Microsoft Windows.
+    - Methodologies/Practices: Agile Development, Design Patterns.
+
+-------------------------------------------------------------------------------
+Other Experience
+
+    Website development and administration for various customers
+                                                       June 1998 - January 2008
+        - Administering web and mail services for multiple customers and
+          domains. Creating web page layout and programming web applications.
+        - Since August 2004 these activities were organized under a sole
+          proprietorship called Herland Software.
+
+    Research Assistant at Queen's University           April 2003 - August 2003
+        - Department of Electrical and Computer Engineering.
+        - Developed software for a research project in robotics and machine
+          vision (Pool Robot).
+        - Low-level programming in C and higher level programming in C++.
+
+    Teaching Assistant at Queen's University          January 2003 - April 2003
+        - Assisted undergraduate students on laboratory assignments in a course
+          on Data Structures and Algorithms.
+
+    Network Administrator at Sci'44 Co-op Student Housing Inc.
+                                                    September 2002 - April 2003
+        - Part-time administration of a Windows 2000 server and 6 Windows 2000
+          workstations at the main office.
+
+    Bank Teller at Sparebanken Sogn og Fjordane, Balestrand
+                                                        June 2001 - August 2001
+        - Worked as front desk teller interacting with customers on a daily
+          basis; responsible for foreign exchange.
+
+-------------------------------------------------------------------------------
+Other Education
+
+    Viken Music College, Gjøvik, Norway                             1999 - 2000
+        - Field of concentration: Jazz/Pop/Rock - Jazz Piano.
+
+    Sygna High School, Balestrand, Norway                           1996 - 1999
+        - Fields of concentration: Mathematics, Physics, Chemistry and English.
+
+-------------------------------------------------------------------------------
+Other Skills and Interests
+
+    - Driver's License: Norwegian Class B.
+    - Professional Memberships:
+        - IEEE, since 2001.
+        - NITO (Norwegian Society of Engineers and Technologists), since 2005.
+    - Hobbies:
+        - Music: Jazz Piano, classical, jazz and rock music.
+        - Audio/Video Technologies: Hi-fi systems, Home theatre, PA systems.
+        - Photography: Digital SLR Cameras, etc.
+
+-------------------------------------------------------------------------------
+Personal Information
+
+    - Birthday: June 24th, 1980.
+    - Marital Status: Married.
+    - Citizenship: Norwegian.
+
+-------------------------------------------------------------------------------
+This document is copyright 2004 - 2013, Johan Herland. Last Modified: July 2013

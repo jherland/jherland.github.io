@@ -1,0 +1,30 @@
+@import url("messages.css");
+@import url("forms.css");
+@import url("quotes.css");
+
+
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+.invisible {
+  display: none;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+#footer {
+  border-top: 1px solid #000;
+  padding-top: 5px;
+  clear: both;
+  font-size: smaller;
+  text-align: left;
+}

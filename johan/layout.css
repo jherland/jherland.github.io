@@ -1,0 +1,15 @@
+@import url("../layout.css");
+
+html, body {
+  background: #999;
+}
+
+a {
+  color: #660;
+}
+
+/* Override background image and background color */
+#page, #footer {
+  background-color: #fff;
+  background-image: url("bg");
+}

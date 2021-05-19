@@ -1,0 +1,12 @@
+html, body {
+  text-align: center;         /* This centers #wrapper in IE5.                                */
+}
+
+/* Main layout frame, fixed-width and centered. */
+#wrapper {
+  width:      700px;          /* Width of wrapper. You may want to change this.               */
+  margin:     10px auto;      /* You may want to tweak margin-top and margin-bottom.          */
+  border:     1px solid #000; /* Default border. Feel free to override.                       */
+  padding:    10px;           /* Default padding. Feel free to tweak.                         */
+  text-align: left;           /* This counters "center" in body for centering #wrapper in IE5 */
+}

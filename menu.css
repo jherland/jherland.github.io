@@ -1,0 +1,19 @@
+/* Move content area away from the left side */
+#content {
+  margin-left: 130px;
+}
+
+#menu {
+  width: 120px;
+  float: left;
+  clear: left;
+  padding: 10px 0 10px 0;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}

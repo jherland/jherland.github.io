@@ -6,249 +6,542 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Johan Herland, johan@herland.net" />
 <style type="text/css">
-	body {
-		font-family: "Bitstream Vera Sans", "Tahoma", sans-serif;
-		text-align: justify;
-		margin: 0 auto;
-		width: 90%;
-		max-width: 62em;
-	}
-	h1 {
-		text-align: center;
-		font-weight: normal;
-		margin-bottom: 0;
-	}
-	#contact {
-		width: 100%;
-		border-top: 1px solid #cccccc;
-		margin: 0;
-		padding: 0;
-	}
-	#contact td {
-		vertical-align: top;
-		margin: 0;
-		padding: 0;
-	}
-	#contact .left {
-		width: 33%;
-		text-align: left;
-	}
-	#contact .center {
-		width: 34%;
-		text-align: center;
-	}
-	#contact .right {
-		width: 33%;
-		text-align: right;
-	}
-	h2 {
-		padding-top: 0.2em;
-		border-top: 1px solid #cccccc;
-		margin-bottom: 0;
-		font-weight: normal;
-	}
-	h3 {
-		margin: 0.4em 0 0 1em;
-		font-weight: normal;
-	}
-	h3 .date {
-		float: right;
-		margin-left: 2em;
-	}
-	ul {
-		clear: both;
-		margin: 0.3em 0 0 0;
-		padding: 0;
-		list-style-position: outside;
-		list-style-type: disc;
-	}
-	h2 + ul { margin-left: 2em; }
-	h3 + ul { margin-left: 4em; }
-	ul ul {
-		margin-top: 0;
-		margin-left: 2em;
-	}
-	a {
-		color: #880000;
-		text-decoration: none;
-	}
-	a:hover { text-decoration: underline; }
-	#credits {
-		border-top: 1px solid #cccccc;
-		padding-top: 0.3em;
-		text-align: center;
-		font-style: italic;
-		font-size: smaller;
-	}
+    body {
+        font-family: "Bitstream Vera Sans", "Tahoma", sans-serif;
+        text-align: justify;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 62em;
+        color: #222222;
+        font-weight: 100;
+    }
+    table#heading {
+        width: 100%;
+    }
+    table#heading td#portrait {
+        width: 23%;
+        padding-top: 2em;
+    }
+    #portrait img {
+        width: 90%;
+        border-radius: 50%;
+        padding: 10%;
+    }
+    table#heading td {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        font-weight: 100;
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+    .subtitle {
+        margin: 0;
+        color: #45818e;
+        text-align: center;
+        font-variant: small-caps;
+        font-size: small;
+    }
+    .address {
+        margin: 4px;
+        color: #666666;
+        text-align: center;
+        font-style: italic;
+    }
+    ul.links {
+        text-align: center;
+    }
+    ul.links li {
+        display: inline-block;
+        font-size: small;
+        margin: 0.5em;
+    }
+    li.phone::before {
+        content: '📱 ';
+    }
+    li.email::before {
+        content: '✉️ ';
+    }
+    li.homepage::before {
+        content: '🏠 ';
+    }
+    li.github::before {
+        content: '⚙️ ';
+    }
+    li.twitter::before {
+        content: '🐦 ';
+    }
+    .quote {
+        text-align: center;
+        color: #666666;
+        font-style: italic;
+    }
+    .chronology {
+        width: 100%;
+        margin-top: 0.4em;
+    }
+    .chronology td {
+        padding: 0 0 0 1em;
+    }
+    .chronology .right {
+        text-align: right;
+    }
+    h2 {
+        clear: both;
+        padding-top: 0.2em;
+        border-top: 1px solid #cccccc;
+        margin-bottom: 0;
+        font-weight: normal;
+        color: #45818e;
+    }
+    h3 {
+        margin: 0.4em 0 0 1em;
+        font-weight: normal;
+    }
+    h3 .date {
+        float: right;
+        text-align: right;
+        margin-left: 2em;
+    }
+    ul {
+        clear: both;
+        margin: 0.3em 0 0 0;
+        padding: 0;
+        list-style-position: outside;
+        list-style-type: disc;
+    }
+    h2 + ul { margin-left: 2em; }
+    h3 + ul { margin-left: 4em; }
+    ul ul {
+        margin-top: 0;
+        margin-left: 2em;
+    }
+    a {
+        color: #234147;
+        text-decoration: underline dotted #cccccc;
+    }
+    a:hover { text-decoration: underline; }
+    #credits {
+        border-top: 1px solid #999999;
+        padding-top: 0.3em;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+    }
 </style>
 
 </head>
 <body>
 
+<table id="heading"><tr>
+    <td id="portrait">
+        <img src="portrait.png" />
+    </td>
+    <td>
+        <h1>Johan Herland</h1>
 
-<h1>Johan Herland</h1>
+        <p class="subtitle">Software Engineer &#x2013; Git Expert</p>
 
-<table id="contact"><tr>
-	<td class="left"><a href="mailto:johan@herland.net">johan@herland.net</a><br /><a href="http://herland.net/johan">http://herland.net/johan</a></td>
-	<td class="center">(+47) 472 62 495</td>
-	<td class="right">Pilestredet Park 4<br />NO-0176 Oslo, Norway</td>
+        <p class="address">Pilestredet Park 4, 0176 Oslo, Norway</p>
+
+        <ul class="links">
+            <li class="phone">
+                <a href="tel:+4747262495">(+47) 472 62 495</a>
+            </li>
+            <li class="email">
+                <a href="mailto:johan@herland.net">johan@herland.net</a>
+            </li>
+            <li class="homepage">
+                <a href="https://herland.net/johan">herland.net/johan</a>
+            </li>
+            <li class="github">
+                <a href="https://github.com/jherland">jherland</a>
+            </li>
+            <li class="twitter">
+                <a href="https://twitter.com/jherland">@jherland</a>
+            </li>
+        </ul>
+
+        <p class="quote">"Move slow and mend things"</p>
+    </td>
 </tr></table>
 
 
-<h2>Summary of Strengths</h2>
+<h2>Summary</h2>
 
 <ul>
-	<li>Passion for designing and implementing elegant and useful (software) solutions to challenging problems.</li>
-	<li>Experience in distributed software development and C/C++/Python from Cisco, Opera and open source projects.</li>
-	<li>Good knowledge of web standards from developing web browsers, and prior experience as a web developer.</li>
-	<li>Excellent communication skills from studying abroad and working in multilingual environments.</li>
-	<li>Diligent and responsible in performing tasks. High attention to detail.</li>
+    <li>Passion for designing and implementing elegant and useful software
+    solutions to challenging problems.</li>
+    <li>Always looking for root causes and more fundamental solutions, rather
+    than superficial patches and fixing symptoms.</li>
+    <li>Experience in distributed software development with Git, and
+    Python/C/C++ programming from Cisco, Opera and open source projects.</li>
+    <li>Good knowledge of the full software stack, with experience from all
+    levels:
+    <ul>
+        <li>low-level embedded Linux work,</li>
+        <li>build systems and test infrastructure for applications as well as
+        H/W device systems,</li>
+        <li>administering servers and services,</li>
+        <li>working with web standards, both as a web browser developer, and a
+        web developer.</li>
+    </ul>
+    </li>
+    <li>Excellent communication skills from studying abroad and working in
+    multilingual environments.</li>
 </ul>
 
 
-<h2>Relevant Experience</h2>
+<h2>Work Experience</h2>
 
-<h3><span class="date">October 2011 &#x2013; Present</span> Software Engineer at <a href="http://www.cisco.com">Cisco</a> (formerly Tandberg)</h3>
+<h3>
+    <span class="date">Oslo<br />October 2011 &#x2013; Present</span>
+    <a href="https://www.cisco.com">Cisco Systems Norway AS</a><br />
+    Software Engineer
+</h3>
 <ul>
-	<li>Platform developer in Lysaker Software team, part of the Collaboration Technology Group.</li>
-	<li>Developing next-generation <a href="http://www.cisco.com/web/telepresence">TelePresence</a> video conferencing endpoints.</li>
-	<li>Git expert, administrator, trainer, etc.</li>
+    <li>Platform developer in the Webex Devices team, part of the Collaboration
+    Technology Group.</li>
+    <li>Development of multiple generations of Webex/TelePresence video
+    conferencing endpoints.</li>
+    <li>Embedded Linux development, integration of open-source and 3rd-party
+    components.</li>
+    <li>Maintenance of build systems for application development towards
+    various custom H/W platforms.</li>
+    <li>Git expert: trained developers and administered in-house Git
+    infrastructure.</li>
+    <li>Improved the developer experience in a large and complex codebase
+    (decades of development, various custom hardware support, actively
+    developed by hundreds of developers across many timezones).</li>
 </ul>
 
-<h3><span class="date">May 2007 &#x2013; Present</span> Contributor to the open source <a href="http://git-scm.com">Git project</a></h3>
+<h3>
+    <span class="date">Online<br />May 2007 &#x2013; November 2014</span>
+    <a href="https://git-scm.com">Git project</a><br />
+    Contributor
+</h3>
 <ul>
-	<li>Git is currently the most popular distributed version control system.</li>
-	<li>Primary author of the <em>git notes</em> feature for attaching useful metadata to Git objects.</li>
-	<li>Active participant in the Git community.</li>
+    <li>Primary author of the <em>git notes</em> feature for attaching useful
+    metadata to Git objects.</li>
+    <li>Active participant in the Git community.</li>
 </ul>
 
-<h3><span class="date">September 2007 &#x2013; September 2011</span> Core Developer at <a href="http://www.opera.com">Opera Software ASA</a></h3>
+<h3>
+    <span class="date">Oslo<br />September 2007 &#x2013; September 2011</span>
+    <a href="https://www.opera.com">Opera Software ASA</a><br />
+    Core Developer
+</h3>
 <ul>
-	<li>Responsible for central infrastructure and utilities, making them lightweight, efficient, and portable to a wide variety of platforms.</li>
-	<li>Maintaining core components for legacy encoding support, Unicode funtionality, selftest infrastructure, etc.</li>
-	<li>Coordinated company-wide version control transition from CVS to Git.</li>
+    <li>Responsible for central infrastructure and utilities, making them
+    lightweight, efficient, and portable to a wide variety of platforms.</li>
+    <li>Maintainer of legacy encoding support, Unicode funtionality, selftest
+    infrastructure, etc.</li>
+    <li>Championed and implemented company-wide version control transition
+    from CVS to Git.</li>
 </ul>
 
-<h3><span class="date">July 2004 &#x2013; September 2007</span> Unix Developer at <a href="http://www.opera.com">Opera Software ASA</a></h3>
+<h3>
+    <span class="date">Oslo<br />July 2004 &#x2013; September 2007</span>
+    <a href="https://www.opera.com">Opera Software ASA</a><br />
+    Unix Developer
+</h3>
 <ul>
-	<li>Developing and porting Opera to embedded Unix/Linux-based platforms.</li>
-	<li>Implementing product-specific features and resolving bugs.</li>
-	<li>Working in customer-oriented product teams with high level of cooperation with the customer and tight delivery deadlines.</li>
-</ul>
-
-
-<h2>Relevant Education</h2>
-
-<h3><span class="date">2000 &#x2013; 2004</span> Bachelor of Science with First Class Honours</h3>
-<ul>
-	<li>Queen's University, Kingston, Ontario, Canada.</li>
-	<li>Computer Engineering, Software Option.</li>
-	<li>Received Dean's Award (above 80% grade average) in 2002 and 2003. Final standing: 84% grade average.</li>
-	<li>Focus on software architecture, software development and real-time systems.</li>
-	<li>4-year intensive program with a final-year thesis project: <em>Robot Pool "Straight-Shot" Planner and Executor</em>:
-		<ul>
-			<li>Part of a larger endeavour in robotics and machine vision on creating a pool-playing robot.</li>
-			<li>Developed two calibration processes for Pool Robot C/C++.</li>
-			<li><a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1389787">http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1389787</a></li>
-		</ul>
-	</li>
+    <li>Developed and ported Opera to embedded Unix/Linux-based platforms.</li>
+    <li>Implemented product-specific features and resolved bugs.</li>
+    <li>Worked in customer-oriented product teams with tight customer
+    cooperation and short delivery deadlines.</li>
 </ul>
 
 
 <h2>Relevant Skills</h2>
 <ul>
-	<li><strong>Natural Languages</strong>: Norwegian (native). English (fluent).</li>
-	<li><strong>Programming Languages</strong>:
-		<ul>
-			<li>Primary languages: C, C++, Python, Bourne shell.</li>
-			<li>Secondary languages: Perl, Java, Javascript.</li>
-		</ul>
-	</li>
-	<li><strong>Other Languages</strong>: HTML, CSS, XML, SQL, etc.</li>
-	<li><strong>Operating Systems</strong>:
-		<ul>
-			<li>Advanced Linux/UNIX user since 1996 (Arch, Debian, Ubuntu, etc.).</li>
-			<li>Some experience from Mac OS X and Microsoft Windows.</li>
-		</ul>
-	</li>
-	<li><strong>Methodologies/Practices</strong>: Agile Development, Design Patterns.</li>
+    <li><strong>Natural Languages</strong>: Native Norwegian. Full professional
+    English. Elementary Dutch. Elementary German.</li>
+    <li><strong>Programming Languages</strong>: Python, C, C++, Bourne/POSIX
+    shell, Nix, Haskell.</li>
+    <li><strong>Other Languages</strong>: HTML, CSS, JSON, XML, SQL, LaTeX,
+    etc.</li>
+    <li><strong>Methodologies/Practices</strong>: Test-driven Development,
+    Agile Development, Design Patterns.</li>
+    <li><strong>Operating Systems</strong>: Linux/UNIX user since 1996. NixOS,
+    Arch, CentOS, Ubuntu, Debian, Gentoo, LFS, etc.</li>
+    <li><strong>Embedded Development</strong>: Embedded Linux development with
+    and without Android, cross-compilation of own and 3rd-party software.</li>
+    <li><strong>Systems development</strong>: How a modern Linux system is put
+    together, systemd configuration, Filesystem Hierarchy Standard, etc.</li>
+    <li><strong>Containers/Virtualization</strong>: Knowledge of Linux
+    namespaces and isolation primitives, Some experience with Docker/Podman and
+    QEMU.</li>
+    <li><strong>Security</strong>: Low‐level security features like Seccomp,
+    SELinux, Linux Capabilities, ASLR, RELRO, stack protection, etc.</li>
+</ul>
+
+
+<h2>Public Speaking</h2>
+<table class="chronology">
+    <tr>
+        <td class="left">2018</td>
+        <td class="center">
+            <strong>
+                <a href="https://youtu.be/jm7QsI-nNjk">The Git Parable</a>
+            </strong>, NDC TechTown
+        </td>
+        <td class="right">Kongsberg</td>
+    </tr>
+    <tr>
+        <td class="left">2018</td>
+        <td class="center">
+            <strong>
+                <a href="https://youtu.be/p4iuZnXzqmI">Building useful project
+                utils in Python</a>
+            </strong>, NDC TechTown
+        </td>
+        <td class="right">Kongsberg</td>
+    </tr>
+    <tr>
+        <td class="left">2017</td>
+        <td class="center">
+            <strong>
+                <a href="https://youtu.be/YHwjECuhGcM">Making a Headless
+                Android Device (with Patricia Aas)</a>
+            </strong>, NDC TechTown
+        </td>
+        <td class="right">Kongsberg</td>
+    </tr>
+    <tr>
+        <td class="left">2016</td>
+        <td class="center">
+            <strong>
+                <a href="https://youtu.be/Vrh63V7OoY8">Elegant Filesystem
+                Interactions in Python using pathlib</a>
+            </strong>, ACCU Conference
+        </td>
+        <td class="right">Bristol</td>
+    </tr>
+    <tr>
+        <td class="left">2013</td>
+        <td class="center">
+            <strong>
+                <a href="http://www.infoq.com/presentations/git-details">The
+                Git Parable</a>
+            </strong>, ACCU Conference
+        </td>
+        <td class="right">Bristol</td>
+    </tr>
+    <tr>
+        <td class="left">2012</td>
+        <td class="center">
+            <strong>
+                The Git Parable
+            </strong>, Meetup with the local Tekna chapter
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+</table>
+
+
+<h2>Attended Trainings</h2>
+<table class="chronology">
+    <tr>
+        <td class="left">2021</td>
+        <td class="center">
+            <strong>Linux Security and Isolation APIs</strong>, Michael Kerrisk
+        </td>
+        <td class="right">Online/Remote</td>
+    </tr>
+    <tr>
+        <td class="left">2020</td>
+        <td class="center">
+            <strong>SELinux Administration</strong>, Ralf Spenneberg
+        </td>
+        <td class="right">Online/Remote</td>
+    </tr>
+    <tr>
+        <td class="left">2019</td>
+        <td class="center">
+            <strong>Fast Track to OpenEmbedded and Yocto Project</strong>,
+            Chris Simmonds
+        </td>
+        <td class="right">Kongsberg</td>
+    </tr>
+    <tr>
+        <td class="left">2019</td>
+        <td class="center">
+            <strong>Secure Coding in C and C++</strong>, Olve Maudal
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+    <tr>
+        <td class="left">2018</td>
+        <td class="center">
+            <strong>Intermediate Python</strong>, Robert Smallshire
+        </td>
+        <td class="right">Kongsberg</td>
+    </tr>
+    <tr>
+        <td class="left">2016</td>
+        <td class="center">
+            <strong>Building and Using Shared Libraries on Linux</strong>,
+            Michael Kerrisk
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+    <tr>
+        <td class="left">2016</td>
+        <td class="center">
+            <strong>Linux/UNIX System Programming</strong>, Michael Kerrisk
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+    <tr>
+        <td class="left">2015</td>
+        <td class="center">
+            <strong>Python Advanced</strong>, Kevlin Henney
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+    <tr>
+        <td class="left">2015</td>
+        <td class="center">
+            <strong>Python Foundation</strong>, Kevlin Henney
+        </td>
+        <td class="right">Oslo</td>
+    </tr>
+</table>
+
+
+<h2>Education</h2>
+
+<h3>
+    <span class="date">Kingston, Ontario<br />2000 &#x2013; 2004</span>
+    <a href="https://www.ece.queensu.ca">Queen's University</a><br />
+    Bachelor of Science with First Class Honours
+</h3>
+<ul>
+    <li>Computer Engineering, Software Option.</li>
+    <li>Received Dean's Award (above 80% grade average) in 2002 and 2003.
+    Final standing: 84% grade average.</li>
+    <li>Focus on software architecture, software development and real-time
+    systems.</li>
+    <li>4-year intensive program with a final-year thesis project:
+    <em>Robot Pool "Straight-Shot" Planner and Executor</em>:
+        <ul>
+            <li>Part of a larger research project in robotics and machine
+            vision on creating a pool-playing robot.</li>
+            <li>Developed two calibration processes for Pool Robot in C/C++.</li>
+            <li>Published paper:
+            <a href="https://ieeexplore.ieee.org/document/1389787">Robotic
+            pool: an experiment in automatic potting</a></li>
+        </ul>
+    </li>
 </ul>
 
 
 <h2>Other Experience</h2>
 
-<h3><span class="date">June 1998 &#x2013; January 2008</span> Website development and administration for various customers</h3>
+<h3>
+    <span class="date"><br />June 1998 &#x2013; January 2008</span>
+    Herland Software (sole proprietorship)<br />
+    Website development and administration
+</h3>
 <ul>
-	<li>Administering web and mail services for multiple customers and domains. Creating web page layout and programming web applications.</li>
-	<li>Since August 2004 these activities were organized under a sole proprietorship called Herland Software.</li>
+    <li>Administered web and mail services for multiple customers and
+    domains.</li>
+    <li>Created web page layout and programming web applications.</li>
 </ul>
 
-<h3><span class="date">April 2003 &#x2013; August 2003</span> Research Assistant at Queen's University</h3>
+<h3>
+    <span class="date">Kingston, Ontario<br />
+    April 2003 &#x2013; August 2003</span>
+    Queen's University<br />
+    Research Asssistant, Department of Electrical and Computer Engineering
+</h3>
 <ul>
-	<li>Department of Electrical and Computer Engineering.</li>
-	<li>Developed software for a research project in robotics and machine vision (Pool Robot).</li>
-	<li>Low-level programming in C and higher level programming in C++.</li>
+    <li>Developed software for a research project in robotics and machine
+    vision (Pool Robot).</li>
+    <li>Low-level programming in C and higher level programming in C++.</li>
 </ul>
 
-<h3><span class="date">January 2003 &#x2013; April 2003</span> Teaching Assistant at Queen's University</h3>
+<h3>
+    <span class="date">Kingston, Ontario<br />
+    January 2003 &#x2013; April 2003</span>
+    Queen's University<br />
+    Teaching Asssistant
+</h3>
 <ul>
-	<li>Assisted undergraduate students on laboratory assignments in a course on Data Structures and Algorithms.</li>
+    <li>Assisted undergraduate students on laboratory assignments in a course
+    on Data Structures and Algorithms.</li>
 </ul>
 
-<h3><span class="date">September 2002 &#x2013; April 2003</span> Network Administrator at Sci'44 Co-op Student Housing Inc.</h3>
+<!--
+<h3>
+    <span class="date">Kingston, Ontario<br />
+    September 2002 &#x2013; April 2003</span>
+    Sci'44 Co-op Student Housing Inc.<br />
+    Network Administrator
+</h3>
 <ul>
-	<li>Part-time administration of a Windows 2000 server and 6 Windows 2000 workstations at the main office.</li>
+    <li>Part-time administration of a Windows 2000 server and 6 Windows 2000
+    workstations at the main office.</li>
 </ul>
 
-<h3><span class="date">June 2001 &#x2013; August 2001</span> Bank Teller at Sparebanken Sogn og Fjordane, Balestrand</h3>
+<h3>
+    <span class="date">Balestrand<br />June 2001 &#x2013; August 2001</span>
+    Sparebanken Sogn og Fjordane<br />
+    Bank Teller
+</h3>
 <ul>
-	<li>Worked as front desk teller interacting with customers on a daily basis; responsible for foreign exchange.</li>
+    <li>Worked as front desk teller interacting with customers on a daily
+    basis; responsible for foreign exchange.</li>
 </ul>
 
 
 <h2>Other Education</h2>
 
-<h3><span class="date">1999 &#x2013; 2000</span> Viken Music College, Gj&#xf8;vik, Norway</h3>
+<h3>
+    <span class="date">Gj&#xf8;vik, 1999 &#x2013; 2000</span>
+    Viken Music College
+</h3>
 <ul>
-	<li>Field of concentration: Jazz/Pop/Rock &#x2013; Jazz Piano.</li>
+    <li>Field of concentration: Jazz/Pop/Rock &#x2013; Jazz Piano.</li>
 </ul>
 
-<h3><span class="date">1996 &#x2013; 1999</span> Sygna High School, Balestrand, Norway</h3>
+<h3>
+    <span class="date">Balestrand, 1996 &#x2013; 1999</span>
+    Sygna High School
+</h3>
 <ul>
-	<li>Fields of concentration: Mathematics, Physics, Chemistry and English.</li>
+    <li>Fields of concentration: Mathematics, Physics, Chemistry and English.
+    </li>
+</ul>
+-->
+
+
+<h2>Other Skills</h2>
+
+<ul>
+    <li><strong>Driver's License</strong>: Norwegian Class B.</li>
+    <li><strong>Professional Memberships</strong>: ACCU, IEEE, NITO</li>
+    <li><strong>Hobbies &#x2013; Cycling</strong>: Road and gravel biking,
+    cyclotourism, sportives, home mechanic.</li>
+    <li><strong>Hobbies &#x2013; Music</strong>: Jazz Piano, music theory,
+    playing various genres in big band and smaller settings.</li>
 </ul>
 
 
-<h2>Other Skills and Interests</h2>
-
-<ul>
-	<li><strong>Driver's License</strong>: Norwegian Class B.</li>
-	<li><strong>Professional Memberships</strong>:
-		<ul>
-			<li><strong>IEEE</strong>, since 2001.</li>
-			<li><strong>NITO</strong> (Norwegian Society of Engineers and Technologists), since 2005.</li>
-		</ul>
-	</li>
-	<li><strong>Hobbies</strong>:
-		<ul>
-			<li><strong>Music</strong>: Jazz Piano, classical, jazz and rock music.</li>
-			<li><strong>Audio/Video Technologies</strong>: Hi-fi systems, Home theatre, PA systems.</li>
-			<li><strong>Photography</strong>: Digital SLR Cameras, etc.</li>
-		</ul>
-	</li>
-</ul>
-
-
+<!--
 <h2>Personal Information</h2>
 
 <ul>
-	<li><strong>Birthday</strong>: June 24th, 1980.</li>
-	<li><strong>Marital Status</strong>: Married.</li>
-	<li><strong>Citizenship</strong>: Norwegian.</li>
+    <li><strong>Birthday</strong>: June 24th, 1980.</li>
+    <li><strong>Marital Status</strong>: Married.</li>
+    <li><strong>Citizenship</strong>: Norwegian.</li>
 </ul>
+-->
 
-<p id="credits">This document is copyright 2004 &#x2013; 2013, <a href="mailto:johan@herland.net">Johan Herland</a>.
-Last Modified: July 2013</p>
+<p id="credits">This document is copyright 2004 &#x2013; 2022, <a href="mailto:johan@herland.net">Johan Herland</a>.
+Last Modified: April 2022</p>
 
 </body>
 </html>

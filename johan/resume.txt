@@ -1,135 +1,173 @@
                             Resume - Johan Herland
+
+         Software Engineer - Git Expert - "Move slow and mend things"
 -------------------------------------------------------------------------------
 johan@herland.net              (+47) 472 62 495              Pilestredet Park 4
-http://herland.net/johan                                   NO-0176 Oslo, Norway
+http://herland.net/johan                                           NO-0176 Oslo
+@jherland                                                                Norway
 
 -------------------------------------------------------------------------------
-Summary of Strengths
+Summary
 
-    - Passion for designing and implementing elegant and useful (software)
-      solutions to challenging problems.
-    - Experience in distributed software development and C/C++/Python from
-      Cisco, Opera and open source projects.
-    - Good knowledge of web standards from developing web browsers, and prior
-      experience as a web developer.
-    - Excellent communication skills from studying abroad and working in
-      multilingual environments.
-    - Diligent and responsible in performing tasks. High attention to detail.
-
--------------------------------------------------------------------------------
-Relevant Experience
-
-    Software Engineer at Cisco (formerly Tandberg)       October 2011 - Present
-        - Platform developer in Lysaker Software team, part of the
-          Collaboration Technology Group.
-        - Developing next-generation TelePresence video conferencing endpoints.
-        - Git expert, administrator, trainer, etc.
-
-    Contributor to the open source Git project               May 2007 - Present
-        - Git is currently the most popular distributed version control system.
-        - Primary author of the "git notes" feature for attaching useful
-          metadata to Git objects.
-        - Active participant in the Git community.
-
-    Core Developer at Opera Software ASA        September 2007 - September 2011
-        - Responsible for central infrastructure and utilities, making them
-          lightweight, efficient, and portable to a wide variety of platforms.
-        - Maintaining core components for legacy encoding support, Unicode
-          funtionality, selftest infrastructure, etc.
-        - Coordinated company-wide version control transition from CVS to Git.
-
-    Unix Developer at Opera Software ASA             July 2004 - September 2007
-        - Developing and porting Opera to embedded Unix/Linux-based platforms.
-        - Implementing product-specific features and resolving bugs.
-        - Working in customer-oriented product teams with high level of
-          cooperation with the customer and tight delivery deadlines.
+  - Passion for designing and implementing elegant and useful software
+    solutions to challenging problems.
+  - Always looking for root causes and more fundamental solutions, rather than
+    superficial patches and fixing symptoms.
+  - Experience in distributed software development with Git, and Python/C/C++
+    programming from Cisco, Opera and open source projects.
+  - Good knowledge of the full software stack, with experience from all levels:
+    - low-level embedded Linux work,
+    - build systems and test infrastructure for applications as well as H/W
+      device systems,
+    - administering servers and services,
+    - working with web standards, both as a web browser developer, and a web
+      developer.
+  - Excellent communication skills from studying abroad and working in
+    multilingual environments.
 
 -------------------------------------------------------------------------------
-Relevant Education
+Work Experience
 
-    Bachelor of Science with First Class Honours                    2000 - 2004
-        - Queen's University, Kingston, Ontario, Canada.
-        - Computer Engineering, Software Option.
-        - Received Dean's Award (above 80% grade average) in 2002 and 2003.
-          Final standing: 84% grade average.
-        - Focus on software architecture/development and real-time systems.
-        - 4-year intensive program with a final-year thesis project:
-          Robot Pool "Straight-Shot" Planner and Executor:
-            - Part of a larger endeavour in robotics and machine vision on
-              creating a pool-playing robot.
-            - Developed two calibration processes for Pool Robot in C/C++.
-            - http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1389787
+  Cisco Systems Norway AS                                                  Oslo
+  Software Engineer                                      October 2011 – Present
+
+    - Platform developer in the Webex Devices team, part of the Collaboration
+      Technology Group.
+    - Development of multiple generations of Webex/TelePresence video
+      conferencing endpoints.
+    - Embedded Linux development, integration of open-source and 3rd-party
+      components.
+    - Maintenance of build systems for application development towards various
+      custom H/W platforms.
+    - Git expert: trained developers and administered in-house Git
+      infrastructure.
+    - Improved the developer experience in a large and complex codebase
+      (decades of development, various custom hardware support, actively
+      developed by hundreds of developers across many timezones).
+
+  Git project                                                            Online
+  Contributor                                          May 2007 – November 2014
+
+    - Primary author of the `git notes` feature for attaching useful metadata
+      to Git objects.
+    - Active participant in the Git community.
+
+  Opera Software ASA                                                       Oslo
+  Core Developer                                September 2007 – September 2011
+
+    - Responsible for central infrastructure and utilities, making them
+      lightweight, efficient, and portable to a wide variety of platforms.
+    - Maintainer of legacy encoding support, Unicode funtionality, selftest
+      infrastructure, etc.
+    - Championed and implemented company-wide version control transition from
+      CVS to Git.
+
+  Opera Software ASA                                                       Oslo
+  Unix Developer                                     July 2004 – September 2007
+
+    - Developed and ported Opera to embedded Unix/Linux-based platforms.
+    - Implemented product-specific features and resolved bugs.
+    - Worked in customer-oriented product teams with tight customer cooperation
+      and short delivery deadlines.
 
 -------------------------------------------------------------------------------
 Relevant Skills
 
-    - Natural Languages: Norwegian (native). English (fluent).
-    - Programming Languages:
-        - Primary languages: C, C++, Python, Bourne shell.
-        - Secondary languages: Perl, Java, Javascript.
-    - Other Languages: HTML, CSS, XML, SQL, etc.
-    - Operating Systems:
-        - Advanced Linux/UNIX user since 1996 (Arch, Debian, Ubuntu, etc.).
-        - Some experience from Mac OS X and Microsoft Windows.
-    - Methodologies/Practices: Agile Development, Design Patterns.
+  - Natural Languages: Native Norwegian. Full professional English.
+    Elementary Dutch. Elementary German.
+  - Programming Languages: Python, C, C++, Bourne/POSIX shell, Nix, Haskell.
+  - Other Languages: HTML, CSS, JSON, XML, SQL, LaTeX, etc.
+  - Methodologies/Practices: Test-driven Development, Agile Development,
+    Design Patterns.
+  - Operating Systems: Linux/UNIX user since 1996. NixOS, Arch, CentOS, Ubuntu,
+    Debian, Gentoo, LFS, etc.
+  - Embedded Development: Embedded Linux development with and without Android,
+    cross-compilation of own and 3rd-party software.
+  - Systems development: How a modern Linux system is put together, systemd
+    configuration, Filesystem Hierarchy Standard, etc.
+  - Containers/Virtualization: Knowledge of Linux namespaces and isolation
+    primitives, Some experience with Docker/Podman and QEMU.
+  - Security: Low-level security features like Seccomp, SELinux, Linux
+    Capabilities, ASLR, RELRO, stack protection, etc.
+
+-------------------------------------------------------------------------------
+Public Speaking
+  2018: The Git Parable, NDC TechTown                                 Kongsberg
+        https://youtu.be/jm7QsI-nNjk
+  2018: Building useful project utils in Python, NDC TechTown         Kongsberg
+        https://youtu.be/p4iuZnXzqmI
+  2017: Making a Headless Android Device (with Patricia Aas), NDC TechTown
+        https://youtu.be/YHwjECuhGcM                                  Kongsberg
+  2016: Elegant Filesystem Interactions in Python using pathlib, ACCU   Bristol
+        https://youtu.be/Vrh63V7OoY8
+  2013: The Git Parable, ACCU                                           Bristol
+        http://www.infoq.com/presentations/git-details
+  2012: The Git Parable, Meetup with the local Tekna chapter               Oslo
+
+-------------------------------------------------------------------------------
+Attended Trainings
+
+  2021: Linux Security and Isolation APIs, Michael Kerrisk        Online/Remote
+  2020: SELinux Administration, Ralf Spenneberg                   Online/Remote
+  2019: Fast Track to OpenEmbedded and Yocto Project, Chris Simmonds  Kongsberg
+  2019: Secure Coding in C and C++, Olve Maudal                            Oslo
+  2018: Intermediate Python, Robert Smallshire                        Kongsberg
+  2016: Building and Using Shared Libraries on Linux, Michael Kerrisk      Oslo
+  2016: Linux/UNIX System Programming, Michael Kerrisk                     Oslo
+  2015: Python Advanced, Kevlin Henney                                     Oslo
+  2015: Python Foundation, Kevlin Henney                                   Oslo
+
+-------------------------------------------------------------------------------
+Education
+
+  Queen's University                                          Kingston, Ontario
+  Bachelor of Science with First Class Honours                      2000 - 2004
+
+    - Computer Engineering, Software Option.
+    - Received Dean’s Award (above 80% grade average) in 2002 and 2003.
+      Final standing: 84% grade average.
+    - Focus on software architecture, software development and real-time
+      systems.
+    - 4-year intensive program with a final-year thesis project:
+      Robot Pool ”Straight-Shot” Planner and Executor:
+      - Part of a larger research project in robotics and machine vision on
+        creating a pool-playing robot.
+      - Developed two calibration processes for Pool Robot in C/C++.
+      - Published paper: Robotic pool: an experiment in automatic potting
+        https://ieeexplore.ieee.org/document/1389787
 
 -------------------------------------------------------------------------------
 Other Experience
 
-    Website development and administration for various customers
-                                                       June 1998 - January 2008
-        - Administering web and mail services for multiple customers and
-          domains. Creating web page layout and programming web applications.
-        - Since August 2004 these activities were organized under a sole
-          proprietorship called Herland Software.
+  Herland Software (sole proprietorship)
+  Website development and administration               June 1998 - January 2008
 
-    Research Assistant at Queen's University           April 2003 - August 2003
-        - Department of Electrical and Computer Engineering.
-        - Developed software for a research project in robotics and machine
-          vision (Pool Robot).
-        - Low-level programming in C and higher level programming in C++.
+    - Administered web and mail services for multiple customers and domains.
+    - Created web page layout and programming web applications.
 
-    Teaching Assistant at Queen's University          January 2003 - April 2003
-        - Assisted undergraduate students on laboratory assignments in a course
-          on Data Structures and Algorithms.
+  Queen’s University                                          Kingston, Ontario
+  Research Assistant                                   April 2003 - August 2003
+  Department of Electrical and Computer Engineering
 
-    Network Administrator at Sci'44 Co-op Student Housing Inc.
-                                                    September 2002 - April 2003
-        - Part-time administration of a Windows 2000 server and 6 Windows 2000
-          workstations at the main office.
+    - Developed software for a research project in robotics and machine vision
+      (Pool Robot).
+    - Low-level programming in C and higher level programming in C++.
 
-    Bank Teller at Sparebanken Sogn og Fjordane, Balestrand
-                                                        June 2001 - August 2001
-        - Worked as front desk teller interacting with customers on a daily
-          basis; responsible for foreign exchange.
+  Queen’s University                                          Kingston, Ontario
+  Teaching Assistant                                  January 2003 - April 2003
+
+    - Assisted undergraduate students on laboratory assignments in a course on
+      Data Structures and Algorithms.
 
 -------------------------------------------------------------------------------
-Other Education
+Other Skills
 
-    Viken Music College, Gjøvik, Norway                             1999 - 2000
-        - Field of concentration: Jazz/Pop/Rock - Jazz Piano.
-
-    Sygna High School, Balestrand, Norway                           1996 - 1999
-        - Fields of concentration: Mathematics, Physics, Chemistry and English.
-
--------------------------------------------------------------------------------
-Other Skills and Interests
-
-    - Driver's License: Norwegian Class B.
-    - Professional Memberships:
-        - IEEE, since 2001.
-        - NITO (Norwegian Society of Engineers and Technologists), since 2005.
-    - Hobbies:
-        - Music: Jazz Piano, classical, jazz and rock music.
-        - Audio/Video Technologies: Hi-fi systems, Home theatre, PA systems.
-        - Photography: Digital SLR Cameras, etc.
+  - Driver’s License: Norwegian Class B.
+  - Professional Memberships: ACCU, IEEE, NITO
+  - Hobbies – Cycling: Road and gravel biking, cyclotourism, sportives,
+    home mechanic.
+  - Hobbies – Music: Jazz Piano, music theory, playing various genres in
+    big band and smaller settings.
 
 -------------------------------------------------------------------------------
-Personal Information
-
-    - Birthday: June 24th, 1980.
-    - Marital Status: Married.
-    - Citizenship: Norwegian.
-
--------------------------------------------------------------------------------
-This document is copyright 2004 - 2013, Johan Herland. Last Modified: July 2013
+This document is copyright 2004-2022, Johan Herland.  Last Modified: April 2022

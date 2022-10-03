@@ -2,9 +2,9 @@
 
          Software Engineer - Git Expert - "Move slow and mend things"
 -------------------------------------------------------------------------------
-johan@herland.net              (+47) 472 62 495              Pilestredet Park 4
-http://herland.net/johan                                           NO-0176 Oslo
-@jherland                                                                Norway
+johan@herland.net               +31 6 19252349                 Schutterstraat 8
+http://herland.net/johan                                          2611 MX Delft
+@jherland                                                             Nederland
 
 -------------------------------------------------------------------------------
 Summary
@@ -28,8 +28,14 @@ Summary
 -------------------------------------------------------------------------------
 Work Experience
 
-  Cisco Systems Norway AS                                                  Oslo
-  Software Engineer                                      October 2011 – Present
+  Tweag                                                        Delft, NL/Remote
+  Developer Productivity Engineer                      September 2022 – Present
+
+    - Developer Productivity Engineer focusing on improving the software
+      developer experience with tools such as Nix and Bazel.
+
+  Cisco Systems Norway AS                                              Oslo, NO
+  Software Engineer                               October 2011 – September 2022
 
     - Platform developer in the Webex Devices team, part of the Collaboration
       Technology Group.
@@ -52,8 +58,8 @@ Work Experience
       to Git objects.
     - Active participant in the Git community.
 
-  Opera Software ASA                                                       Oslo
-  Core Developer                                September 2007 – September 2011
+  Opera Software ASA                                                   Oslo, NO
+  Core Developer                                     July 2004 – September 2011
 
     - Responsible for central infrastructure and utilities, making them
       lightweight, efficient, and portable to a wide variety of platforms.
@@ -61,14 +67,8 @@ Work Experience
       infrastructure, etc.
     - Championed and implemented company-wide version control transition from
       CVS to Git.
-
-  Opera Software ASA                                                       Oslo
-  Unix Developer                                     July 2004 – September 2007
-
-    - Developed and ported Opera to embedded Unix/Linux-based platforms.
-    - Implemented product-specific features and resolved bugs.
-    - Worked in customer-oriented product teams with tight customer cooperation
-      and short delivery deadlines.
+    - Unix developer until September 2007: Developed and ported Opera to
+      embedded Unix/Linux-based platforms.
 
 -------------------------------------------------------------------------------
 Relevant Skills
@@ -92,35 +92,35 @@ Relevant Skills
 
 -------------------------------------------------------------------------------
 Public Speaking
-  2018: The Git Parable, NDC TechTown                                 Kongsberg
+  2018: The Git Parable, NDC TechTown                             Kongsberg, NO
         https://youtu.be/jm7QsI-nNjk
-  2018: Building useful project utils in Python, NDC TechTown         Kongsberg
+  2018: Building useful project utils in Python, NDC TechTown     Kongsberg, NO
         https://youtu.be/p4iuZnXzqmI
   2017: Making a Headless Android Device (with Patricia Aas), NDC TechTown
-        https://youtu.be/YHwjECuhGcM                                  Kongsberg
-  2016: Elegant Filesystem Interactions in Python using pathlib, ACCU   Bristol
-        https://youtu.be/Vrh63V7OoY8
-  2013: The Git Parable, ACCU                                           Bristol
+        https://youtu.be/YHwjECuhGcM                              Kongsberg, NO
+  2016: Elegant Filesystem Interactions in Python using pathlib, ACCU
+        https://youtu.be/Vrh63V7OoY8                                Bristol, UK
+  2013: The Git Parable, ACCU                                       Bristol, UK
         http://www.infoq.com/presentations/git-details
-  2012: The Git Parable, Meetup with the local Tekna chapter               Oslo
+  2012: The Git Parable, Meetup with the local Tekna chapter           Oslo, NO
 
 -------------------------------------------------------------------------------
 Attended Trainings
 
   2021: Linux Security and Isolation APIs, Michael Kerrisk        Online/Remote
   2020: SELinux Administration, Ralf Spenneberg                   Online/Remote
-  2019: Fast Track to OpenEmbedded and Yocto Project, Chris Simmonds  Kongsberg
-  2019: Secure Coding in C and C++, Olve Maudal                            Oslo
-  2018: Intermediate Python, Robert Smallshire                        Kongsberg
-  2016: Building and Using Shared Libraries on Linux, Michael Kerrisk      Oslo
-  2016: Linux/UNIX System Programming, Michael Kerrisk                     Oslo
-  2015: Python Advanced, Kevlin Henney                                     Oslo
-  2015: Python Foundation, Kevlin Henney                                   Oslo
+  2019: Fast Track to OpenEmbedded and Yocto Project, C. Simmonds Kongsberg, NO
+  2019: Secure Coding in C and C++, Olve Maudal                        Oslo, NO
+  2018: Intermediate Python, Robert Smallshire                    Kongsberg, NO
+  2016: Building and Using Shared Libraries on Linux, Michael Kerrisk  Oslo, NO
+  2016: Linux/UNIX System Programming, Michael Kerrisk                 Oslo, NO
+  2015: Python Advanced, Kevlin Henney                                 Oslo, NO
+  2015: Python Foundation, Kevlin Henney                               Oslo, NO
 
 -------------------------------------------------------------------------------
 Education
 
-  Queen's University                                          Kingston, Ontario
+  Queen's University                                      Kingston, Ontario, CA
   Bachelor of Science with First Class Honours                      2000 - 2004
 
     - Computer Engineering, Software Option.
@@ -145,7 +145,7 @@ Other Experience
     - Administered web and mail services for multiple customers and domains.
     - Created web page layout and programming web applications.
 
-  Queen’s University                                          Kingston, Ontario
+  Queen’s University                                      Kingston, Ontario, CA
   Research Assistant                                   April 2003 - August 2003
   Department of Electrical and Computer Engineering
 
@@ -153,7 +153,7 @@ Other Experience
       (Pool Robot).
     - Low-level programming in C and higher level programming in C++.
 
-  Queen’s University                                          Kingston, Ontario
+  Queen’s University                                      Kingston, Ontario, CA
   Teaching Assistant                                  January 2003 - April 2003
 
     - Assisted undergraduate students on laboratory assignments in a course on
@@ -170,4 +170,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2022, Johan Herland.  Last Modified: April 2022
+This document is copyright 2004-2022, Johan Herland.   Last Modified: Oct. 2022

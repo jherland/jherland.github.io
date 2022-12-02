@@ -92,6 +92,8 @@ Relevant Skills
 
 -------------------------------------------------------------------------------
 Public Speaking
+  2022: The Git Parable, Tweag internal knowledge sharing         Online/Remote
+        https://youtu.be/ANNboouhNHE
   2018: The Git Parable, NDC TechTown                             Kongsberg, NO
         https://youtu.be/jm7QsI-nNjk
   2018: Building useful project utils in Python, NDC TechTown     Kongsberg, NO

@@ -2,8 +2,8 @@
 
          Software Engineer - Git Expert - "Move slow and mend things"
 -------------------------------------------------------------------------------
-johan@herland.net               +31 6 19252349                 Schutterstraat 8
-http://herland.net/johan                                          2611 MX Delft
+johan@herland.net               +31 6 19252349               Industriestraat 59
+http://herland.net/johan                                          2624 BB Delft
 @jherland                                                             Nederland
 
 -------------------------------------------------------------------------------
@@ -95,6 +95,11 @@ Relevant Skills
 
 -------------------------------------------------------------------------------
 Technical Writing
+
+  2023: Separating debug symbols from executables                    Tweag blog
+        https://www.tweag.io/blog/2023-11-23-debug-fission/
+  2023: Integrating Testwell CTC++ with Bazel                        Tweag blog
+        https://www.tweag.io/blog/2023-11-09-ctc++-bazel-integration/
   2023: Behind the scenes with FawltyDeps v0.13.0,                   Tweag blog
         matching imports with dependencies
         https://www.tweag.io/blog/2023-09-21-fawltydeps-mapping-strategy/
@@ -104,6 +109,10 @@ Technical Writing
 
 -------------------------------------------------------------------------------
 Public Speaking
+
+  2023: Finding undeclared and unused dependencies in your
+        notebooks and projects, PyData Global                     Online/Remote
+        https://youtu.be/X5gTFpg1YKA
   2022: The Git Parable, Tweag internal knowledge sharing         Online/Remote
         https://youtu.be/ANNboouhNHE
   2018: The Git Parable, NDC TechTown                             Kongsberg, NO
@@ -117,19 +126,6 @@ Public Speaking
   2013: The Git Parable, ACCU                                       Bristol, UK
         http://www.infoq.com/presentations/git-details
   2012: The Git Parable, Meetup with the local Tekna chapter           Oslo, NO
-
--------------------------------------------------------------------------------
-Attended Trainings
-
-  2021: Linux Security and Isolation APIs, Michael Kerrisk        Online/Remote
-  2020: SELinux Administration, Ralf Spenneberg                   Online/Remote
-  2019: Fast Track to OpenEmbedded and Yocto Project, C. Simmonds Kongsberg, NO
-  2019: Secure Coding in C and C++, Olve Maudal                        Oslo, NO
-  2018: Intermediate Python, Robert Smallshire                    Kongsberg, NO
-  2016: Building and Using Shared Libraries on Linux, Michael Kerrisk  Oslo, NO
-  2016: Linux/UNIX System Programming, Michael Kerrisk                 Oslo, NO
-  2015: Python Advanced, Kevlin Henney                                 Oslo, NO
-  2015: Python Foundation, Kevlin Henney                               Oslo, NO
 
 -------------------------------------------------------------------------------
 Education
@@ -176,7 +172,7 @@ Other Experience
 -------------------------------------------------------------------------------
 Other Skills
 
-  - Driver’s License: Norwegian Class B.
+  - Driver’s License: Dutch Class B.
   - Professional Memberships: ACCU, IEEE, NITO
   - Hobbies – Cycling: Road and gravel biking, cyclotourism, sportives,
     home mechanic.
@@ -184,4 +180,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2023, Johan Herland.   Last Modified: Sep. 2023
+This document is copyright 2004-2024, Johan Herland.    Last Modified: May 2024

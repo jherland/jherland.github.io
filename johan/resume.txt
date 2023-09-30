@@ -12,18 +12,20 @@ Summary
   - Passion for designing and implementing elegant and useful software
     solutions to challenging problems.
   - Always looking for root causes and more fundamental solutions, rather than
-    superficial patches and fixing symptoms.
-  - Experience in distributed software development with Git, and Python/C/C++
-    programming from Cisco, Opera and open source projects.
-  - Good knowledge of the full software stack, with experience from all levels:
-    - low-level embedded Linux work,
-    - build systems and test infrastructure for applications as well as H/W
-      device systems,
-    - administering servers and services,
+    superficial patches and merely fixing symptoms.
+  - Experience in distributed development with Git, contributing to open
+    source, developing good tools to improve team productivity.
+  - Experience with all levels of the software stack:
+    - low-level embedded Linux work, communicating directly with hardware
+      components,
+    - build systems, test infrastructure, CI/CD pipelines, both for S/W running
+      stand-alone and embedded into H/W devices,
+    - application-level programming, from high-level Python down to
+      hardware-near C,
     - working with web standards, both as a web browser developer, and a web
       developer.
-  - Excellent communication skills from studying abroad and working in
-    multilingual environments.
+  - Excellent communicator from always studying and working in multilingual
+    environments. Shared knowledge and mentors colleagues.
 
 -------------------------------------------------------------------------------
 Work Experience
@@ -31,8 +33,10 @@ Work Experience
   Tweag                                                        Delft, NL/Remote
   Developer Productivity Engineer                      September 2022 – Present
 
-    - Developer Productivity Engineer focusing on improving the software
-      developer experience with tools such as Nix and Bazel.
+    - Senior consultant, helping clients improve the software developer
+      experience with tools such as Bazel and Nix.
+    - Co-maintainer of FawltyDeps, a dependency checked for Python projects and
+      Jupyter notebooks.
 
   Cisco Systems Norway AS                                              Oslo, NO
   Software Engineer                               October 2011 – September 2022
@@ -61,10 +65,8 @@ Work Experience
   Opera Software ASA                                                   Oslo, NO
   Core Developer                                     July 2004 – September 2011
 
-    - Responsible for central infrastructure and utilities, making them
-      lightweight, efficient, and portable to a wide variety of platforms.
-    - Maintainer of legacy encoding support, Unicode functionality, selftest
-      infrastructure, etc.
+    - Maintainer of central components (Unicode, legacy encodings, selftest
+      infrastructure, etc.), making them lightweight, efficient, and portable.
     - Championed and implemented company-wide version control transition from
       CVS to Git.
     - Unix developer until September 2007: Developed and ported Opera to
@@ -75,20 +77,30 @@ Relevant Skills
 
   - Natural Languages: Native Norwegian. Full professional English.
     Elementary Dutch. Elementary German.
-  - Programming Languages: Python, C, C++, Bourne/POSIX shell, Nix, Haskell.
+  - Programming Languages: Python, C, C++, Bourne/POSIX shell.
+    Learning: Nix, Rust, Haskell.
   - Other Languages: HTML, CSS, JSON, XML, SQL, LaTeX, etc.
   - Methodologies/Practices: Test-driven Development, Agile Development,
     Design Patterns.
   - Operating Systems: Linux/UNIX user since 1996. NixOS, Arch, CentOS, Ubuntu,
     Debian, Gentoo, LFS, etc.
-  - Embedded Development: Embedded Linux development with and without Android,
-    cross-compilation of own and 3rd-party software.
+  - Embedded Development: Embedded Linux development, Android, build systems
+    for cross-compiling own and 3rd-party software.
   - Systems development: How a modern Linux system is put together, systemd
     configuration, Filesystem Hierarchy Standard, etc.
   - Containers/Virtualization: Knowledge of Linux namespaces and isolation
-    primitives, Some experience with Docker/Podman and QEMU.
+    primitives, Docker/Podman and QEMU.
   - Security: Low-level security features like Seccomp, SELinux, Linux
     Capabilities, ASLR, RELRO, stack protection, etc.
+
+-------------------------------------------------------------------------------
+Technical Writing
+  2023: Behind the scenes with FawltyDeps v0.13.0,                   Tweag blog
+        matching imports with dependencies
+        https://www.tweag.io/blog/2023-09-21-fawltydeps-mapping-strategy/
+  2023: Announcing FawltyDeps,                                       Tweag blog
+        a dependency checker for your Python code
+        https://www.tweag.io/blog/2023-03-14-announcing-fawltydeps/
 
 -------------------------------------------------------------------------------
 Public Speaking
@@ -172,4 +184,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2022, Johan Herland.   Last Modified: Oct. 2022
+This document is copyright 2004-2023, Johan Herland.   Last Modified: Sep. 2023

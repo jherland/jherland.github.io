@@ -13,6 +13,8 @@ Summary
     solutions to challenging problems.
   - Always looking for root causes and more fundamental solutions, rather than
     superficial patches and merely fixing symptoms.
+  - Shares knowledge and mentors colleagues. Excellent communicator from always
+    studying and working in multilingual environments. 
   - Experience in distributed development with Git, contributing to open
     source, developing good tools to improve team productivity.
   - Experience with all levels of the software stack:
@@ -20,12 +22,8 @@ Summary
       components,
     - build systems, test infrastructure, CI/CD pipelines, both for S/W running
       stand-alone and embedded into H/W devices,
-    - application-level programming, from high-level Python down to
-      hardware-near C,
-    - working with web standards, both as a web browser developer, and a web
-      developer.
-  - Excellent communicator from always studying and working in multilingual
-    environments. Shared knowledge and mentors colleagues.
+    - application-level programming, from high-level Python down to C on the
+      bare metal.
 
 -------------------------------------------------------------------------------
 Work Experience
@@ -180,4 +178,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2024, Johan Herland.    Last Modified: May 2024
+This document is copyright 2004-2024, Johan Herland. Last Modified: August 2024

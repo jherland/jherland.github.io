@@ -112,7 +112,7 @@ Public Speaking
 
   2023: Finding undeclared and unused dependencies in your
         notebooks and projects, PyData Global                     Online/Remote
-        https://youtu.be/X5gTFpg1YKA
+        https://www.youtube.com/watch?v=iJl5mTvYmLg
   2022: The Git Parable, Tweag internal knowledge sharing         Online/Remote
         https://youtu.be/ANNboouhNHE
   2018: The Git Parable, NDC TechTown                             Kongsberg, NO

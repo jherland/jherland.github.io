@@ -94,6 +94,8 @@ Relevant Skills
 -------------------------------------------------------------------------------
 Technical Writing
 
+  2025: Bazel and Testwell CTC++, revisited                          Tweag blog
+        https://www.tweag.io/blog/2025-03-06-ctc++-revisited/
   2023: Separating debug symbols from executables                    Tweag blog
         https://www.tweag.io/blog/2023-11-23-debug-fission/
   2023: Integrating Testwell CTC++ with Bazel                        Tweag blog
@@ -186,4 +188,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2025, Johan Herland.   Last Modified: Feb. 2025
+This document is copyright 2004-2025, Johan Herland.   Last Modified: Mar. 2025

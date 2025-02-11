@@ -108,6 +108,14 @@ Technical Writing
 -------------------------------------------------------------------------------
 Public Speaking
 
+  2025: FawltyDeps: Finding undeclared/unused dependencies in your
+        notebooks and projects, FOSDEM 2025                        Brussels, BE
+	https://fosdem.org/2025/schedule/event/fosdem-2025-5072-
+	fawltydeps-finding-undeclared-and-unused-dependencies-in-your-
+	notebooks-and-projects/
+  2025: Debug fission: Separating debug symbols from executables, FOSDEM 2025
+        https://fosdem.org/2025/schedule/event/fosdem-2025-5089-   Brussels, BE
+	debug-fission-separating-debug-symbols-from-executables/
   2023: Finding undeclared and unused dependencies in your
         notebooks and projects, PyData Global                     Online/Remote
         https://www.youtube.com/watch?v=iJl5mTvYmLg
@@ -178,4 +186,4 @@ Other Skills
     big band and smaller settings.
 
 -------------------------------------------------------------------------------
-This document is copyright 2004-2024, Johan Herland. Last Modified: August 2024
+This document is copyright 2004-2025, Johan Herland.   Last Modified: Feb. 2025
